@@ -1,0 +1,20 @@
+<div class="bg-light">
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card p-4 shadow" style="width: 350px;">
+            <h3 class="text-center mb-3">Login</h3>
+            
+                <div class="mb-3">
+                    <label for="email" class="form-label">UserName</label>
+                    <input type="text" [(ngModel)]="userobj.username" class="form-control" id="text" placeholder="Enter your username" required >
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" [(ngModel)]="userobj.password" class="form-control" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="button" (click)="onlogin()" class="btn btn-primary w-100">Login</button>
+          
+            
+        </div>
+    </div>
+    
+</div>
