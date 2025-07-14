@@ -1,0 +1,24 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url("https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center center/cover;
+    border: 2px solid black;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(88, 36, 36, 0.8);
+    
+}
+.child1 { top: 10px; left: 10px; }
+.child2 { top: 10px; right: 10px; }
+.child3 { bottom: 10px; left: 10px; }
+.child4 { bottom: 10px; right: 10px; }
+
+#btn{
+    display: flex;
+    justify-content: center;
+
+}
